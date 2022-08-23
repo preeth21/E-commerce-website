@@ -1,0 +1,12 @@
+.product-container {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100vw;
+}
+
+.image {
+    height: 200px;
+    width: 120px;
+    border-radius: 10px;
+}
