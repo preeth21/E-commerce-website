@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-container {
+    background-color: #003060;
+}
+
+.search-button {
+    background-color: rgb(194, 184, 52);
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+}
+
+.cart {
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 8px 15px;
+    background: rgb(170, 207, 68);
+    border-radius: 30px;
+    color: #EEEDE7;
+}
+
+.home-logo {
+    font-family: "Bree Serif";
+    font-size: 38px;
+    color: rgb(219, 217, 217);
+}
+
+.lio {
+    color: rgb(194, 184, 52);
+}
+
+#navItem1 {
+    color: rgb(194, 184, 52);
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#navItem2 {
+    color: rgb(194, 184, 52);
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#navItem3 {
+    color: rgb(194, 184, 52);
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#navItem4 {
+    color: rgb(194, 184, 52);
+    font-family: "Bree Serif";
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.advertise {
+    padding-top: 15vh;
+}
+
+.carousel-container {
+    background-size: cover;
+    
+}
+
+.product-container {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100vw;
+}
+
+.image {
+    height: 200px;
+    width: 120px;
+    border-radius: 10px;
+    
+}
+
+img{
+    height:100vh;
+}
+
+.srh {
+    border-radius: 5px;
+    width: 300px;
+    background-color: beige;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box {
+    height: 120px;
+    width: 120px;
+    background-color: #F39205;
+    margin: 20px;
+    padding: 5px;
+    color: brown;
+    text-align: center;
+}
+
+@media screen and (max-width: 567px) {
+    .advertise {
+        padding-top: 19vh;
+    }
+
+    .srh {
+        width: 50vw;
+    }
+
+    .logo {
+        order: -2;
+    }
+
+    .navbar-toggler {
+        order: -1;
+    }
+}
